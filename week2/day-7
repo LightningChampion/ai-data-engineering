@@ -1,0 +1,35 @@
+# Gün 14 — Microsoft Fabric Tanışma
+
+Bugün öğrendiklerim:
+
+- Workspace oluşturma
+- Lakehouse oluşturma
+- Lakehouse içinde Files ve Tables farkı
+- CSV dosyasını Lakehouse'a yükleme
+- CSV dosyasını tabloya çevirme
+- SQL analytics endpoint kullanma
+- SQL ile Lakehouse tablosunu sorgulama
+- Notebook oluşturma
+- Notebook'a Lakehouse bağlama
+- PySpark ile Lakehouse tablosu okuma
+- Yeni sütun oluşturma
+- groupBy ile kategori bazlı analiz yapma
+- Analiz sonucunu Lakehouse'a yeni tablo olarak kaydetme
+
+Önemli kavramlar:
+
+- Workspace = proje çalışma alanı
+- Lakehouse = veri deposu
+- Files = ham dosyalar
+- Tables = sorgulanabilir tablolar
+- SQL analytics endpoint = Lakehouse tablolarını SQL ile sorgulama alanı
+- Notebook = PySpark / Python ile veri işleme alanı
+
+Bugünkü akış:
+
+CSV → Lakehouse Files → Table → SQL sorgusu → Notebook → PySpark analiz → Yeni tablo
+
+Oluşturulan tablolar:
+
+- sales_data
+- category_revenue
